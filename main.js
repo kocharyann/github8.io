@@ -1,6 +1,6 @@
-"Латте": {price: 200, checkbox: false, select: false}, 
-    "Капучино": {price: 250, checkbox: true, select: false}, 
-    "Раф": {price: 300,checkbox: false, select: true} 
+"product1": {price: 200, checkbox: false, select: false}, 
+    "product2": {price: 250, checkbox: true, select: false}, 
+    "product3": {price: 300,checkbox: false, select: true} 
 }; 
 const selectMap = {"select1": 15, "select2": 20, "select3": 25, "select4": 30};
 const checkboxPrice = 10; 
