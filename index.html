@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Название сайта</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cont">
+    <div class="col-start-2 lg:col-start-3 col-span-4 lg:col-span-2 flex flex-col">
+        <form class="flex flex-col">
+            <label class="text-center flex flex-col">
+                 Количество
+                 <input id="quantityInput" class="px-1 my-1" type="number"/>
+            </label>
+            <label class="text-center flex flex-col">
+                Товар
+                <label>
+                    товар1
+                    <input value="product1" name="radio-type" type="radio">
+                </label>
+                <label>
+                    товар2
+                    <input value="product2" name="radio-type" type="radio">
+                </label>
+                <label>
+                    товар3
+                    <input value="product3" name="radio-type" type="radio">
+                </label>
+            </label>
+            <label class="flex flex-col items-center">
+                <label class="hidden flex-col items-center" for="select">
+                    Доп услуги
+                <select id="select" multiple>
+                    <option value="select1">Название1</option>
+                    <option value="select2">Название2</option>
+                    <option value="select3">Название3</option>
+                    <option value="select4">Название4</option>
+                </select>
+                </label>
+                <label class="hidden items-center text-center justify-center content-center justify-content-center">
+                    пакет надо ?
+                    <input id="checkBox" value="checkbox" type="checkbox">
+                </label>
+            </label>
+        </form>
+        <div id="answerDiv" class="px-5 text-center bg-orange-200"></div>
+    </div>
+</div>
+</body>
+</html>

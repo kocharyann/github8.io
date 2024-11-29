@@ -1,0 +1,30 @@
+body {
+    background-color: darkseagreen; /* цвет фона*/
+}
+#quantityInput{
+    background-color: darkslateblue; /* цвет фона ввода количества */
+}
+.cont {
+    display: flex;
+    margin: 20px auto 0 auto;
+    background-color: #B22222; /* цвет фона кальулятора */
+    padding: 6px;
+    grid-row: 2;
+    grid-column: 6;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    max-width: 30vw;
+    min-width: 20vw;
+}
+
+form label {
+    color: mintcream; /* цвет текста кальулятора */
+}
+
+#answerDiv {
+    background-color: midnightblue; /* цвет фона ответа */
+    color: mintcream; /* цвет текста калькулятора */
+}
+
+/*# sourceMappingURL=style.css.map */
