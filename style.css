@@ -1,13 +1,13 @@
 body {
-    background-color: darkseagreen; /* цвет фона*/
+    background-color: #5e0808; /* цвет фона*/
 }
 #quantityInput{
-    background-color: darkslateblue; /* цвет фона ввода количества */
+    background-color: #421921; /* цвет фона ввода количества */
 }
 .cont {
     display: flex;
     margin: 20px auto 0 auto;
-    background-color: #B22222; /* цвет фона кальулятора */
+    background-color: #c9697a; /* цвет фона кальулятора */
     padding: 6px;
     grid-row: 2;
     grid-column: 6;
@@ -19,12 +19,12 @@ body {
 }
 
 form label {
-    color: mintcream; /* цвет текста кальулятора */
+    color: black; /* цвет текста кальулятора */
 }
 
 #answerDiv {
-    background-color: midnightblue; /* цвет фона ответа */
-    color: mintcream; /* цвет текста калькулятора */
+    background-color: #5e0808; /* цвет фона ответа */
+    color: white; /* цвет текста калькулятора */
 }
 
 /*# sourceMappingURL=style.css.map */
